@@ -11,6 +11,10 @@ Solution:
 3. Inference: Created fastapi to perform inference on images
 
 Results:
+To test the model: run python fast_api_call.py.
+This will start the webservice
+You can upload image from postman using the endpoint: localhost:8000/upload with key as 'file' and value as image file
+
 ![all40](https://user-images.githubusercontent.com/22715882/183249644-5b01324c-2597-446e-a47c-bf2a4c2287e9.png)
 
 ![all37_0_rotate](https://user-images.githubusercontent.com/22715882/183249651-265526c0-675d-4bb8-9583-3c2f921ea58d.jpeg)
